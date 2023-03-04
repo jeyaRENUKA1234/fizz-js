@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	</head>
+	<body>
+	
+	<script>
+		let number=100;
+		function value(){
+			for(i=0;i<number;i++){
+				if((i%3==0)&&(i%5==0)){
+					document.write("fizzbuzz");
+					document.write("<br>")
+					
+				}
+				else if(i%5==0){
+					document.write("buzz");
+					document.write("<br>")
+				
+				}
+				else if(i%3==0){
+					document.write("fizz");
+					document.write("<br>")
+
+					}
+				else{
+					document.write(i);
+					document.write("<br>")
+				}
+				
+				}
+			}
+		
+		value()
+		// with argument with return
+		function value(a,b){
+				let c=a+b;
+				return c;
+		
+		}let d=value(20,30)
+			console.log(d);
+			
+		//with argument without return
+			function num(r,d){
+				let m=r+d;
+				console.log(m);
+			}
+			num(22,20)
+		//without argument with return
+			let a=20;
+			let b=10;
+			function sum(){
+				let z=a+b;
+				return z;
+			}let s=sum()
+			 console.log(s);
+		//without argument without return
+		
+			let num1=40;
+			let num2=30;
+			function mark(){
+				let m=num1+num2
+				console.log(m)
+			}mark()
+			
+		
+	
+	</script>
+	
+	</body>
+</html>
